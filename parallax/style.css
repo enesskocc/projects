@@ -1,0 +1,206 @@
+
+
+*{
+    margin: 0;
+}
+
+.Parallax{
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.one{
+    height: 100vh;
+    background-image: url(img/bg.jpg);
+    /* background-position: top top; */
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two{
+    background-image: url(img/bg2.jpg);
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    
+    
+}
+
+.two img{
+    
+    width: 30%;
+   
+}
+
+
+.three{
+    height: 80vh;
+    background-image: url(img/bg3.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    
+    
+}
+
+.four{
+    height: 83vh;
+    background-image: url(img/bg4.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+
+}
+
+.five{
+    height: 99vh;
+    background-image: url(img/bg.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.75;
+}
+
+.firsth{
+
+    /* background-color: yellow; */
+    
+    width: 30rem ;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 0.5rem inset purple;
+    outline-offset: 1rem;
+    background-color: #4D4D4D;
+    border-radius: 40px  0 40px 0 ;
+    font-size: 3.8rem;
+    opacity: 1;
+    color: white;
+    font-family: 'Lato', sans-serif; 
+    letter-spacing: 0.5rem;
+
+}
+
+.full {
+    
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 3.5rem;
+    font-family: sans-serif;
+
+}
+
+.full p{
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    
+}
+
+.aws{
+    padding-top: 3.5rem;
+    height: 13rem;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #282E34; 
+    color: white;
+    
+}
+
+
+
+.aws p{
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+    margin-right: 8rem;
+    margin-left: 8rem;
+    font-size: 1.2rem;
+}
+
+.yourself{
+    width: 40rem ;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 0.5rem inset purple;
+    outline-offset: 0.2rem;
+    background-color: #4D4D4D;
+    font-size: 3.5rem;
+    color: white;
+    background-color: black;
+}
+
+.data{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5rem; 
+}
+
+.data p{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    margin-right: 8rem;
+    margin-left: 8rem;  
+}
+
+.team{
+    width: 30rem ;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 0.5rem inset purple;
+    outline-offset: 0.2rem;
+    background-color: #4D4D4D;
+    font-size: 3.5rem;
+    color: white;
+    background-color: black;
+}
+
+.why{
+    font-size: 1.5rem;
+    text-align: center;
+    /* margin-top: 6rem;  */
+    background-color: #282E34;
+    color: white; 
+    height: 15.2rem;
+    padding-top: 4rem;
+}
+
+
+.why p{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    font-size: 1.25rem;
+    
+}
+
+.last{
+    width: 47rem ;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 0.5rem inset purple;
+    outline-offset: 1rem;
+    background-color: #4D4D4D;
+    border-radius: 40px  0 40px 0 ;
+    font-size: 3.5rem;
+    color: white;
+}
+
