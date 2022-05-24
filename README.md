@@ -10,6 +10,8 @@ netflix-project     --> https://enesskocc.github.io/netflix-project/
 
 Google-project      --> https://enesskocc.github.io/google-project/
 
+calculator-project  --> https://enesskocc.github.io/calculator-project/
+
 
 
 
