@@ -1,0 +1,241 @@
+*{
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    
+    /* padding: 5rem; */
+    font-family: "Montserrat";
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* padding: 5rem; */
+}
+
+header h1{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+form h4{
+    margin-bottom: 10px;
+    color: rgb(73, 72, 72);
+}
+.birinci{
+    /* border: 5px solid red; */
+    /* width: 30rem; */
+    padding-right: 2rem;
+    
+    /* margin-left: 25rem; */
+    
+}
+
+.ikinci{
+   
+    
+    width: 24rem;
+    height: 29.5rem;
+    background-color: rgb(241, 238, 238);
+    border-radius: 20px;
+    /* margin-right: 25rem; */
+    /* margin-top: 1rem; */
+    
+}
+
+.ikonmail{
+    border: 1px solid gray;
+    width: 380px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.birinci input,form select{
+    border: none;
+    outline: none;
+}
+
+.ikontel{
+    border: 1px solid gray;
+    width: 380px;
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+.ikonname{
+    border: 1px solid gray;
+    width: 380px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.ikonadres{
+    
+    border: 1px solid gray;
+    width: 380px;
+    border-radius: 5px;
+    height: 30px;
+    
+}
+
+.ikonsehir{
+    
+    border: 1px solid gray;
+    width: 380px;
+    border-radius: 5px;
+    height: 30px;
+    
+}
+
+.ikonülke{
+    width: 125px;
+    border: 1px solid gray;
+    margin: 5px 7px;
+    height: 30px;
+
+}
+
+.son{
+    display: flex;
+}
+
+.ikonpost{
+    width: 205px;
+    border: 1px solid gray;
+    margin: 5px 7px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+form i{
+    margin: 7px 6px;
+    font-size: 14px;
+    color: gray;
+}
+
+form button{
+    background-color: rgb(217, 105, 18);
+    color: white;
+    width: 75px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    margin-left: 300px;
+}
+
+/* input,
+input::-webkit-input-placeholder {
+    font-size: 13px;
+    line-height: 1;
+} */
+
+form label{
+    font-size: 13px;
+    line-height: 1;
+    color: gray;
+}
+
+/* .see i{
+    width: 15px;
+} */
+
+
+
+.foto{
+    display: flex;
+    
+}
+.foto1 img{
+    width: 8rem;
+    height: 9rem;
+    border-radius: 10px;
+    margin: 0.5rem 0.5rem;
+
+    
+}
+
+.foto1 p, h5{
+    position: relative;
+    bottom: 8rem;
+    left: 9rem;
+}
+
+.foto1 button{
+    position: relative;
+    bottom: 8rem;
+    left: 9rem; 
+}
+
+
+
+.foto2 img{
+    width: 8rem;
+    height: 9rem;
+    border-radius: 10px;
+    margin-top: -5rem;
+    margin-left: 0.5rem;
+    
+    
+}
+
+.foto2 p, h5{
+    position: relative;
+    bottom: 8rem;
+    left: 9rem;
+}
+
+.foto2 button{
+    position: relative;
+    bottom: 8rem;
+    left: 9rem; 
+    
+}
+
+.shipping{
+    /* clear: both; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: -6.2rem;
+    border-top: 1px solid gray;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    /* margin-top: -1.5rem; */
+    border-top: 1px solid gray;
+    
+}
+
+.mp button{
+    width: 5rem;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+
+
+
+.mp span{
+    /* border: 1px solid red; */
+    font-size: 1.2rem;
+    background-color: gainsboro;
+    
+    
+}
+
+
+
+
+
+
+

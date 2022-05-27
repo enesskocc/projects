@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+</head>
+<body>
+<header>
+    <h1>Checkout</h1>
+</header>
+<main>
+  <form action="">
+    <div class="birinci">
+
+        <h4>Contact Information</h4>
+                <label for="mail">Email</label> <br> 
+                <div class="ikonmail">
+                <i class="fa-solid fa-envelope"></i>
+                <input  class="ortak"  type="email" id="mail" value="" placeholder="Enter your email">
+              </div>
+                <br> <br>
+                <label for="tel">Phone</label> <br> 
+                <div class="ikontel">
+                  <i class="fa-solid fa-phone"></i>
+                <input class="ortak" type="tel" id="tel" value="" placeholder="Enter your phone">
+              </div>
+                <br> <br>
+                <h4>Shipping address</h4>
+                
+                <label for="isim">Full name</label>
+                <div class="ikonname">
+                <i class="fa-solid fa-user"></i>
+                <input class="ortak" type="text" id="isim" value="" placeholder="Enter your Full name">
+              </div>
+                <br> <br>
+        
+                <label for="adres">Adress</label>  
+                <div class="ikonadres">
+                <i class="fa-solid fa-house-chimney"></i>
+                <input class="ortak" type="text" id="adres" value="" placeholder="Enter yor Adress">
+              </div>
+                <br> <br>
+                
+                
+                <label for="sehir">City</label> 
+                <div class="ikonsehir">
+                  <i class="fa-solid fa-city"></i>
+                <input class="ortak" type="text" id="sehir" value="" placeholder="Enter your City">
+              </div> 
+                <br> <br>
+               
+               
+               <div class="son">
+                <div>
+                <label class="ülke" for="role">Country</label> 
+                
+                
+                
+              
+                <div class="ikonülke">
+                  <i class="fa-solid fa-earth-europe"></i>
+                <select class="ülke" name="role" id="role">
+                <!-- <option value="" disabled selected hidden>Select curennt Role</option>  -->
+                  <option value="">Turkey</option>  
+                  <option value="">USA</option>  
+                  <option value="">Germany</option>  
+                  <option value="">England</option>  
+                  <option value="">Ukraine</option>  
+                  <option value="">Bonsnia</option>  
+        
+                </select>
+              </div>
+            </div>
+
+              <div>
+              <label class="posta" for="postakodu">Postal Code</label>
+              <div class="ikonpost">
+                <i class="fa-solid fa-envelopes-bulk"></i>
+                <input class="posta2" type="number" id="postakodu" value="" placeholder="Enter your postal code">
+              </div>
+            </div>
+              </div>
+        
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                  See this information next time
+                </label>
+              </div>
+
+            <div>
+                <button>Continue</button>
+            </div>
+        
+            </div>
+        
+            
+          </form>
+          <div class="ikinci">
+            <div class="foto1">
+                <img src="./IMG/photo1.png" alt="">
+                <h5>Vintage Backbag</h5> 
+                <p><span style="color: rgb(228, 152, 11) ; font-weight: 900;">$54.99</span> <small><del>$94.99</del></small></p>
+                <div class="mp"><button><span>+</span>  1 <span>-</span> </button></div>
+          </div>
+
+          <div class="foto2"> 
+              <img src="./IMG/photo2.png" alt="">
+                <h5>Levi Shoes</h5>
+                <p><span style="color: rgb(228, 152, 11) ; font-weight: 900;">$74.99</span> <small><del>$124.99</del></small> </p>
+                <div class="mp"><button><span>+</span>  1 <span>-</span> </button></div>
+          </div>
+          
+          <div class="shipping">
+            <p>Shipping</p>
+            <p> $19</p>
+          </div>
+        
+          <div class="total">
+            <p>Total </p>
+            <p>$148.98</p>
+          </div>
+        
+        </div>
+      </main> 
+</body>
+</html>
+
+
+
