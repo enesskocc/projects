@@ -14,6 +14,8 @@ calculator-project  --> https://enesskocc.github.io/calculator-project/
 
 checkout-project   --> https://enesskocc.github.io/checkout-project/
 
+bootstrap-responsive-navbar --> https://enesskocc.github.io/bootstrap-responsive-navbar/
 
+floating-menu-project    ---> https://enesskocc.github.io/floating-menu-project/
 
 
